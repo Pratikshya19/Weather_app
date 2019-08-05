@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
+
+
+body {
+  font-family: 'Pacifico', cursive;
+}
+
+.wrapper {
+  background: linear-gradient(to right, rgb(0, 255, 136), #e74c3c);
+  height: 100vh;
+  display: flex;
+}
+
