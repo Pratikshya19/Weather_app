@@ -4,11 +4,7 @@ import Title from './components/Title';
 import Form from './components/Form';
 import Weather from './components/Weather';
 import { async } from "q";
-
-
 const API_KEY = "84717655ce7fa2fced83edfe8aab43b4";
-
-
 class App extends React.Component { 
   state = {
     temperature: undefined,
@@ -19,8 +15,6 @@ class App extends React.Component {
     error: undefined,
 
   }
-
-
 getWeather = async(e) => {
   e.preventDefault()
   const city = e.target.elements.city.value;
