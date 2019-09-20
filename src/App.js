@@ -47,7 +47,6 @@ getWeather = async(e) => {
   }
 }
 
-
 render(){
   return(<div>
     <div className="wrapper">
